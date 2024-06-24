@@ -17,11 +17,12 @@
                 <li><a href="">Contacts</a></li>
             </ul>
         </nav>
+        <address>
         <ul>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380986778261">+38 098 677 82 61</a></li>
         </ul>
-
+        </address>
     </header>
    <main>
        <!-- HERO section 3 -->
@@ -55,11 +56,11 @@
         <section>
             <h2>What we do</h2>
             <ul>
-                <li> <img src="images/programer-working.jpg" 
+                <li><img src="images/programer-working.jpg" 
                     alt="Photo creation of program code" width="370" height="294" /></li>
-                <li> <img src="images/creative-artist-web-design.jpg" 
+                <li><img src="images/creative-artist-web-design.jpg" 
                     alt="Photo mobile app creation" width="370" height="294" /></li>
-                <li> <img src="images/web-ui-designers-are-developing-app.jpg" 
+                <li><img src="images/web-ui-designers-are-developing-app.jpg" 
                     alt="Photo design work" width="370" height="294" /></li>
             </ul>
 
