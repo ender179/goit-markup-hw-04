@@ -57,11 +57,11 @@
             <h2>What we do</h2>
             <ul>
                 <li><img src="images/programer-working.jpg" 
-                    alt="Photo creation of program code" width="370" height="294"/></li>
+                    alt="Photo creation of program code" width="370" height="294"></li>
                 <li><img src="images/creative-artist-web-design.jpg" 
-                    alt="Photo mobile app creation" width="370" height="294"/></li>
+                    alt="Photo mobile app creation" width="370" height="294"></li>
                 <li><img src="images/web-ui-designers-are-developing-app.jpg" 
-                    alt="Photo design work" width="370" height="294"/></li>
+                    alt="Photo design work" width="370" height="294"></li>
             </ul>
 
         </section>
@@ -71,22 +71,22 @@
 <h2>Our team</h2>
 <ul>
     <li>
-        <img src="images/igor-demjanenko-1.jpg" alt="igor demjanenko" width="270" height="260"/>
+        <img src="images/igor-demjanenko-1.jpg" alt="igor demjanenko" width="270" height="260">
         <h3>igor demjanenko</h3>
         <p lang="en">Product Designer</p>
     </li>
     <li>
-        <img src="images/olga-repina-2.jpg" alt="olga repina" width="270" height="260"/>
+        <img src="images/olga-repina-2.jpg" alt="olga repina" width="270" height="260">
         <h3>olga repina</h3>
         <p lang="en">Frontend Developer</p>
     </li>
     <li>
-        <img src="images/nikolay-tarasov-3.jpg" alt="nikolay tarasov" width="270" height="260"/>
+        <img src="images/nikolay-tarasov-3.jpg" alt="nikolay tarasov" width="270" height="260">
         <h3>nikolay tarasov</h3>
         <p lang="en">Marketing</p>
     </li>
     <li>
-        <img src="images/mihail-ermakov-4.jpg" alt="Mikhail Ermakov" width="270" height="260"/>
+        <img src="images/mihail-ermakov-4.jpg" alt="Mikhail Ermakov" width="270" height="260">
         <h3>Mikhail Ermakov</h3>
         <p lang="en">UI Designer</p>
     </li>
