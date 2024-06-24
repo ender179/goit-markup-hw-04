@@ -20,7 +20,7 @@
         <address>
         <ul>
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380986778261">+38 098 677 82 61</a></li>
+            <li><a href="tel:+110001111111">+11 000 111 11 11</a></li>
         </ul>
         </address>
     </header>
@@ -104,7 +104,7 @@
                     <a href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380986778261">+38 098 677 82 61</a>
+                    <a href="tel:+110001111111">+11 000 111 11 11</a>
                 </li>
             </ul>
         </address>
