@@ -28,7 +28,7 @@
        <!-- HERO section 3 -->
         <section>
         <h1>Effective solutions for your business</h1>
-		<div><button type="button">Order a service</button></div>
+	<button type="button">Order a service</button>
         </section>
         <!-- List of tasks Section 4 -->
         <section>
