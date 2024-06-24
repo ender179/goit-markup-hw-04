@@ -104,7 +104,7 @@
                     <a href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+110001111111">+11 {000}} 111 11 11</a>
+                    <a href="tel:+110001111111">+11 {000} 111 11 11</a>
                 </li>
             </ul>
         </address>
