@@ -7,14 +7,14 @@
     <title>WebStudio</title>
 </head>
 <body>
-     <!-- HEADER секция1 -->
+     <!-- HEADER section 1 -->
     <header>
         <nav>
             <a href="./index.html">WebStudio</a>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="./index.html">Studio</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contacts</a></li>
             </ul>
         </nav>
         <ul>
@@ -24,69 +24,69 @@
 
     </header>
    <main>
-       <!-- HERO секция3 -->
+       <!-- HERO section 3 -->
         <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+        <h1>Effective solutions for your business</h1>
+                <button type="button">Order a service</button>
         </section>
-        <!-- Список задач секция4 -->
+        <!-- List of tasks Section 4 -->
         <section>
-            <h2 hidden>Плюсы компании</h2>
+            <h2 hidden>Pros of the company</h2>
             <ul>
                 <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3>Attention to detail</h3>
+                    <p>Ideological considerations, as well as the beginning of the day-to-day work of position building.</p>
                 </li>
                 <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3>Punctuality</h3>
+                    <p>The task of the organization, especially the scope and location of staff training entails.</p>
                 </li>
                 <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3>Planning</h3>
+                    <p>Equally, consultation with a broad asset largely conditions the.</p>
                 </li>
                 <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3>Modern technologies</h3>
+                    <p>The significance of these problems is so obvious that the realization of planned tasks.</p>
                 </li>
             </ul>
         </section>
-        <!-- Чем мы занимаемся секция5 -->
+        <!-- What we do section 5 -->
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2>What we do</h2>
             <ul>
                 <li> <img src="images/programer-working.jpg" 
-                    alt="Фото создание программного кода" width="370" height="294" /></li>
+                    alt="Photo creation of program code" width="370" height="294" /></li>
                 <li> <img src="images/creative-artist-web-design.jpg" 
-                    alt="Фото создание мобильных приложений" width="370" height="294" /></li>
+                    alt="Photo mobile app creation" width="370" height="294" /></li>
                 <li> <img src="images/web-ui-designers-are-developing-app.jpg" 
-                    alt="Фото работа с дизайном" width="370" height="294" /></li>
+                    alt="Photo design work" width="370" height="294" /></li>
             </ul>
 
         </section>
 
-   <!-- Наша команда секция6 -->
+   <!-- Our team section 6 -->
    <section>
-<h2>Наша команда</h2>
+<h2>Our team</h2>
 <ul>
     <li>
-        <img src="images/igor-demjanenko-1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-        <h3>Игорь Демьяненко</h3>
+        <img src="images/igor-demjanenko-1.jpg" alt="igor demjanenko" width="270" height="260" />
+        <h3>igor demjanenko</h3>
         <p lang="en">Product Designer</p>
     </li>
     <li>
-        <img src="images/olga-repina-2.jpg" alt="Ольга Репина" width="270" height="260" />
-        <h3>Ольга Репина</h3>
+        <img src="images/olga-repina-2.jpg" alt="olga repina" width="270" height="260" />
+        <h3>olga repina</h3>
         <p lang="en">Frontend Developer</p>
     </li>
     <li>
-        <img src="images/nikolay-tarasov-3.jpg" alt="Николай Тарасов" width="270" height="260" />
-        <h3>Николай Тарасов</h3>
+        <img src="images/nikolay-tarasov-3.jpg" alt="nikolay tarasov" width="270" height="260" />
+        <h3>nikolay tarasov</h3>
         <p lang="en">Marketing</p>
     </li>
     <li>
-        <img src="images/mihail-ermakov-4.jpg" alt="Михаил Ермаков" width="270" height="260" />
-        <h3>Михаил Ермаков</h3>
+        <img src="images/mihail-ermakov-4.jpg" alt="Mikhail Ermakov" width="270" height="260" />
+        <h3>Mikhail Ermakov</h3>
         <p lang="en">UI Designer</p>
     </li>
 </ul>
