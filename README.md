@@ -1,113 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
-</head>
-<body>
-     <!-- HEADER section 1 -->
-    <header>
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <address>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+110001111111">+11 {000} 111 11 11</a></li>
-        </ul>
-        </address>
-    </header>
-   <main>
-       <!-- HERO section 3 -->
-        <section>
-        <h1>Effective solutions for your business</h1>
-	<button type="button">Order a service</button>
-        </section>
-        <!-- List of tasks Section 4 -->
-        <section>
-            <h2 hidden>Pros of the company</h2>
-            <ul>
-                <li>
-                    <h3>Attention to detail</h3>
-                    <p>Ideological considerations, as well as the beginning of the day-to-day work of position building.</p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>The task of the organization, especially the scope and location of staff training entails.</p>
-                </li>
-                <li>
-                    <h3>Planning</h3>
-                    <p>Equally, consultation with a broad asset largely conditions the.</p>
-                </li>
-                <li>
-                    <h3>Modern technologies</h3>
-                    <p>The significance of these problems is so obvious that the realization of planned tasks.</p>
-                </li>
-            </ul>
-        </section>
-        <!-- What we do section 5 -->
-        <section>
-            <h2>What we do</h2>
-            <ul>
-                <li><img src="./images/programer-working.jpg" 
-                    alt="Photo creation of program code" width="370" height="294"></li>
-                <li><img src="./images/creative-artist-web-design.jpg" 
-                    alt="Photo mobile app creation" width="370" height="294"></li>
-                <li><img src="./images/web-ui-designers-are-developing-app.jpg" 
-                    alt="Photo design work" width="370" height="294"></li>
-            </ul>
+# Домашнє завдання № 1
 
-        </section>
+- Створи репозиторій `goit-markup-hw-01`.
+- Виконай HTML-розмітку макета сторінки
+  [**домашнього завдання #1**](<https://www.figma.com/file/Kr5Q4EVrEAqpOWko4QeEJb/Web-Studio-(Version-4.0)?type=design&node-id=0-1&mode=design&t=84PbudrCNmZLKWOy-0>),
+  без CSS оформлення.
+- Налаштуй `GitHub Pages` і додай посилання на живу сторінку в шапку
+  GitHub-репозиторія.
 
-   <!-- Our team section 6 -->
-   <section>
-<h2>Our team</h2>
-<ul>
-    <li>
-        <img src="./images/igor-demjanenko-1.jpg" alt="igor demjanenko" width="270" height="260">
-        <h3>igor demjanenko</h3>
-        <p lang="en">Product Designer</p>
-    </li>
-    <li>
-        <img src="./images/olga-repina-2.jpg" alt="olga repina" width="270" height="260">
-        <h3>olga repina</h3>
-        <p lang="en">Frontend Developer</p>
-    </li>
-    <li>
-        <img src="./images/nikolay-tarasov-3.jpg" alt="nikolay tarasov" width="270" height="260">
-        <h3>nikolay tarasov</h3>
-        <p lang="en">Marketing</p>
-    </li>
-    <li>
-        <img src="./images/mihail-ermakov-4.jpg" alt="Mikhail Ermakov" width="270" height="260">
-        <h3>Mikhail Ermakov</h3>
-        <p lang="en">UI Designer</p>
-    </li>
-</ul>
-   </section>
-    </main>
-    <footer>
-        <a href="./index.html">WebStudio</a>
-        <address>
-            <ul>
-                <li>
-                    <a href="https://goo.gl/maps/SxN2yB6NeiDHtefY7" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li>
-                    <a href="tel:+110001111111">+11 {000} 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
-</body>
-</html>
+## Критерії приймання роботи наставником
+
+### Проект
+
+**`«A1»`** Головний HTML-файл називається `index.html`.
+
+**`«A2»`** У корені проекту є папка `images` з зображеннями.
+
+**`«A3»`** У назвах файлів відсутні великі літери, пробіли і трансліт, тільки
+літери і слова англійської мови.
+
+**`«A4»`** Вихідний код відформатований за допомогою `Prettier`.
+
+**`«A5»`** Всі зображення та текстовий контент взяті з макета.
+
+**`«A6»`** Всі растрові зображення оптимізовані, використовуючи
+[squoosh](https://squoosh.app/).
+
+**`«A7»`** Код написаний з дотриманням [**настанови**](https://codeguide.co/).
+
+### Розмітка
+
+**`«B1»`** Розмітка сторінки `Студія` набрана у файлі `index.html`.
+
+**`«B2»`** Виконана HTML-розмітка всіх елементів макета.
+
+**`«B3»`** Теги використані відповідно до їх семантичного змісту.
+
+**`«B4»`** HTML проходить перевірку
+[**валідатором**](http://validator.w3.org/nu/) без помилок.
+
+**`«B5»`** У розмітці є теги для виділення основної структури сторінки:
+`<header>`, `<main>` і `<footer>`.
+
+**`«B6»`** Логотип в хедері і футері - це посилання з текстом, не зображення.
+
+**`«B7»`** Тег `<nav>` використаний один раз на сторінці - в хедері.
+
+**`«B8»`** Контакти в хедері (пошта і телефон) знаходяться за межами тегу
+`<nav>`.
+
+**`«B9»`** Тег `<h1>` використаний один раз на сторінці.
+
+**`«B10»`** Елемент з текстом `"Order Service"` - це кнопка з `type="button"`.
+
+**`«B11»`** Заголовки секцій розмічені тегом `<h2>`.
+
+**`«B12»`** У тегів `<img>` вказані атрибути розмірів, як мінімум `width`.
+
+**`«B13»`** У тегів `<img>` є атрибут `alt`, який заповнений коротким описом про
+те, що зображено на малюнку. Опис тією ж мовою що і решта текстового контенту.
+
+**`«B14»`** Зображення експортовані з макета у форматі `jpg`.
+
+**`«B15»`** Групи однотипних елементів зібрані у списки `<ul>`.
+
+# Web Studio
+
+![Web Page](./images/screencapture.png)
+
+---
