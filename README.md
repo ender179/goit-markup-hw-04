@@ -1,67 +1,67 @@
 # Домашнє завдання № 1
 
-- Створи репозиторій `goit-markup-hw-01`.
-- Виконай HTML-розмітку макета сторінки
-  [**домашнього завдання #1**](<https://www.figma.com/file/Kr5Q4EVrEAqpOWko4QeEJb/Web-Studio-(Version-4.0)?type=design&node-id=0-1&mode=design&t=84PbudrCNmZLKWOy-0>),
-  без CSS оформлення.
-- Налаштуй `GitHub Pages` і додай посилання на живу сторінку в шапку
-  GitHub-репозиторія.
+- Create a repository `goit-markup-hw-01`.
+- Viconay HTML-markup of the page layout
+  [**homework #1**](<https://www.figma.com/file/Kr5Q4EVrEAqpOWko4QeEJb/Web-Studio-(Version-4.0)?type=design&node-id=0-1&mode=design&t=84PbudrCNmZLKWOy-0>),
+  no CSS design.
+- Customize `GitHub Pages` and add a link to the live page in the header
+  GitHub-repository.
 
-## Критерії приймання роботи наставником
+## Criteria for accepting a job as a mentor
 
-### Проект
+### project
 
-**`«A1»`** Головний HTML-файл називається `index.html`.
+**`«A1»`** The main HTML-file is called `index.html`.
 
-**`«A2»`** У корені проекту є папка `images` з зображеннями.
+**`«A2»`** There is a folder in the root of the project `images` with images.
 
-**`«A3»`** У назвах файлів відсутні великі літери, пробіли і трансліт, тільки
-літери і слова англійської мови.
+**`«A3»`** File names do not contain capital letters, spaces, or transliteration, only
+English letters and words only.
 
-**`«A4»`** Вихідний код відформатований за допомогою `Prettier`.
+**`«A4»`** The source code is formatted with `Prettier`.
 
-**`«A5»`** Всі зображення та текстовий контент взяті з макета.
+**`«A5»`** All images and text content are taken from the mockup.
 
-**`«A6»`** Всі растрові зображення оптимізовані, використовуючи
+**`«A6»`** All raster images are optimized using
 [squoosh](https://squoosh.app/).
 
-**`«A7»`** Код написаний з дотриманням [**настанови**](https://codeguide.co/).
+**`«A7»`** The code is written in compliance with [**guidelines**](https://codeguide.co/).
 
-### Розмітка
+### Markup
 
-**`«B1»`** Розмітка сторінки `Студія` набрана у файлі `index.html`.
+**`«B1»`** Page layout `Studio` typed in the file `index.html`.
 
-**`«B2»`** Виконана HTML-розмітка всіх елементів макета.
+**`«B2»`** Completed HTML-markup of all layout elements.
 
-**`«B3»`** Теги використані відповідно до їх семантичного змісту.
+**`«B3»`** Tags are used according to their semantic content.
 
-**`«B4»`** HTML проходить перевірку
-[**валідатором**](http://validator.w3.org/nu/) без помилок.
+**`«B4»`** HTML is being tested
+[**validator**](http://validator.w3.org/nu/) error-free.
 
-**`«B5»`** У розмітці є теги для виділення основної структури сторінки:
+**`«B5»`** The markup has tags to highlight the main structure of the page:
 `<header>`, `<main>` і `<footer>`.
 
-**`«B6»`** Логотип в хедері і футері - це посилання з текстом, не зображення.
+**`«B6»`** Logo in the header and footer - this is a link with text, not an image.
 
-**`«B7»`** Тег `<nav>` використаний один раз на сторінці - в хедері.
+**`«B7»`** Tagged `<nav>` використаний один раз на сторінці - в хедері.
 
 **`«B8»`** Контакти в хедері (пошта і телефон) знаходяться за межами тегу
 `<nav>`.
 
-**`«B9»`** Тег `<h1>` використаний один раз на сторінці.
+**`«B9»`** Tagged `<h1>` used once per page.
 
-**`«B10»`** Елемент з текстом `"Order Service"` - це кнопка з `type="button"`.
+**`«B10»`** An element with text `"Order Service"` - is a button with `type="button"`.
 
-**`«B11»`** Заголовки секцій розмічені тегом `<h2>`.
+**`«B11»`** Section headings are labeled with the tag `<h2>`.
 
-**`«B12»`** У тегів `<img>` вказані атрибути розмірів, як мінімум `width`.
+**`«B12»`** Tags. `<img>` size attributes are specified, at least `width`.
 
-**`«B13»`** У тегів `<img>` є атрибут `alt`, який заповнений коротким описом про
-те, що зображено на малюнку. Опис тією ж мовою що і решта текстового контенту.
+**`«B13»`** The `<img>' tags have an `alt' attribute, which is filled with a brief description of
+what is shown in the picture. Description in the same language as the rest of the text content.
 
-**`«B14»`** Зображення експортовані з макета у форматі `jpg`.
+**`«B14»`** Images exported from the layout in the format `jpg`.
 
-**`«B15»`** Групи однотипних елементів зібрані у списки `<ul>`.
+**`«B15»`** Groups of similar items are organized into lists `<ul>`.
 
 # Web Studio
 
