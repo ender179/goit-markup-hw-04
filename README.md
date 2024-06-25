@@ -1,4 +1,4 @@
-# Домашнє завдання № 1
+# homework № 1
 
 - Create a repository `goit-markup-hw-01`.
 - Viconay HTML-markup of the page layout
