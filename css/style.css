@@ -1,11 +1,11 @@
-/* основной цвет фона #FFFFFF; */
-/* вторичный цвет фона #2F303A */
-/* цвет основного текста #212121; */
-/* цвет вторичного текста #757575; */
-/* белый #FFFFFF */
-/* акцент #2196F3; */
-/* цвет фона команды #F5F4FA; */
-/* цвет ссылок футера rgba(255, 255, 255, 0.6); */
+/* background color #FFFFFF; */
+/* secondary background color #2F303A */
+/* body text color #212121; */
+/* secondary text color #757575; */
+/* white #FFFFFF */
+/* emphasis #2196F3; */
+/* team background color #F5F4FA; */
+/* footer link color rgba(255, 255, 255, 0.6); */
 
 :root {
 	--primary-bg-color: #ffffff;
@@ -17,7 +17,7 @@
 	--color-bg-team: #f5f4fa;
 	--color-footers-link: rgba(255, 255, 255, 0.6);
 }
-/* Общее форматирование */
+/* General formatting */
 body {
 	background-color: var(--primary-bg-color);
 	color: var(--color-main-text);
@@ -35,7 +35,7 @@ ul {
 a {
 	text-decoration: none;
 }
-/* Логотип */
+/* Logo */
 .logo {
 	color: var(--color-main-text);
 	font-family: Raleway;
@@ -49,7 +49,7 @@ a {
 	color: var(--accent);
 }
 
-/* Навигация */
+/* Navigation */
 .site-nav .link {
 	color: var(--color-main-text);
 	font-weight: 400;
@@ -64,7 +64,7 @@ a {
 .site-nav .link.current {
 	color: var(--accent);
 }
-/* Герой */
+/* Hero */
 .hero {
 	background: var(--secondary-bg-color);
 	color: var(--white);
@@ -89,7 +89,7 @@ a {
 	line-height: 1.87;
 }
 
-/* Стили секций */
+/* Section styles */
 section p {
 	color: var(--color-secondary-text);
 	font-style: normal;
@@ -108,7 +108,7 @@ section h2 {
 	color: var(--color-main-text);
 }
 
-/* Стиль преимуществ */
+/* Advantage Style */
 .advantages h3 {
 	font-style: normal;
 	font-weight: 700;
@@ -117,7 +117,7 @@ section h2 {
 	letter-spacing: 0.03em;
 }
 
-/* Секция "наща команда */
+/* Our team section */
 .team {
 	background-color: var(--color-bg-team);
 }
@@ -136,7 +136,7 @@ section h2 {
 	text-align: center;
 }
 
-/* Футер */
+/* Lining */
 .ftr {
 	background-color: var(--secondary-bg-color);
 	color: var(--primary-bg-color);
@@ -169,7 +169,7 @@ section h2 {
 
 /* Portfolio.html */
 
-/* Кнопки фильтрации */
+/* Filter buttons */
 .btn-list {
 	font-weight: 500;
 	font-size: 16px;
@@ -188,7 +188,7 @@ section h2 {
 	color: var(--primary-bg-color);
 }
 
-/* Секция проектов */
+/* Projects Section */
 .portfolio h2 {
 	font-style: normal;
 	font-weight: 700;
