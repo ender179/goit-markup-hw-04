@@ -1,72 +1,206 @@
 body {
- font-family: 'Roboto', sans-serif;
- color: #434455;
- background-color: #fff;
-}
-
-ul,
-ol {
- list-style-type: none;
-}
-
-a {
- text-decoration: none;
-}
-
-.logo {
- font-family: 'Raleway', sans-serif;
- font-weight: 700;
- font-size: 18px;
- line-height: 1.17;
- letter-spacing: 0.03em;
- text-transform: uppercase;
- color: #4d5ae5;
-}
-
-.header-logo .logo-part {
- color: #2e2f42;
-}
-
-.footer-logo .logo-part {
- color: #f4f4fd;
- }
-
- .tixt {
- font-family: 'Roboto', sans-serif;
- font-weight: 400;
- font-size: 16px;
- line-height: 150%;
- letter-spacing: 0.02em;
- color: #f4f4fd;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
  }
  
-.nav-link {
- font-family: 'Roboto', sans-serif;
- font-weight: 500;
- font-size: 16px;
- line-height: 0.5;
- letter-spacing: 0.02em;
- color: #2e2f42;
+ ul,
+ ol {
+  list-style-type: none;
+ }
+ 
+ a {
+  text-decoration: none;
+ }
+ 
+ .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+ }
+ 
+ .header-logo .logo-part {
+  color: #2e2f42;
+ }
+ 
+ .footer-logo .logo-part {
+  color: #f4f4fd;
+  }
+ 
+  .tixt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  }
+  
+ .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+ }
+ 
+ .nav-link:hover,
+ .nav-link:focus,
+ .Contacts-link:hover,
+ .Contacts-link:focus {
+  color: #4d5ae5;
+ }
+ 
+ .Contacts {
+  font-style: normal;
+ }
+ 
+ .Contacts-link {
+  font-size: 16px;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+ }
+ 
+ .page-footer {
+  background-color: #2e2f42;
+ }
+
+ .page-section {
+  background-color: #2e2f42;
+ }
+
+ .typog {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.Contacts-link:hover,
-.Contacts-link:focus {
- color: #4d5ae5;
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
-.Contacts {
- font-style: normal;
+.button {
+  cursor: pointer;
 }
 
-.Contacts-link {
- font-size: 16px;
- line-height: 0.5;
- letter-spacing: 0.02em;
- color: #434455;
+.button {
+  background-color: #4d5ae5;
 }
 
-.page-footer {
- background-color: #2e2f42;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+  .team-section {
+  background-color: #f4f4fd;
+}
+
+.team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team {
+  text-align: center;
+}
+
+.team-li {
+  background-color: #ffffff;
+}
+
+.content {
+  background: #ffffff;
+}
+
+.contenty {
+  background-color: #ffffff;
+}
+
+.contenty {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.texty {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #434455;
+}
+
+.oury {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.oury {
+  background-color: #ffffff;
+}
+
+.oury {
+  text-transform: capitalize;
+}
+
+.conty {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.conty {
+  background-color: #ffffff;
+}
+
+.taxty {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
