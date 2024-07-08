@@ -210,7 +210,3 @@ body {
  font-size: 56px;
  line-height: 1.07;
  }
-
- ul li:first-child a:hover { 
-  color: #404bbf; 
- }
