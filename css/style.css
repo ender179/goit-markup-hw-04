@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
  }
  
  ul,
@@ -198,10 +200,17 @@ body {
 } 
 
 .sec-heder {
-  font-weight: 500;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
  }
 
  .big-title {
  font-size: 56px;
  line-height: 1.07;
+ }
+
+ ul li:first-child a:hover { 
+  color: #404bbf; 
  }
