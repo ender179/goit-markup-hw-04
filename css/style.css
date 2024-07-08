@@ -4,18 +4,18 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
- }
- 
- ul,
- ol {
+}
+
+ul,
+ol {
   list-style-type: none;
- }
- 
- a {
+}
+
+a {
   text-decoration: none;
- }
- 
- .logo {
+}
+
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -23,61 +23,61 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
- }
- 
- .header-logo .logo-part {
+}
+
+.header-logo .logo-part {
   color: #2e2f42;
- }
- 
- .footer-logo .logo-part {
+}
+
+.footer-logo .logo-part {
   color: #f4f4fd;
-  }
- 
-  .tixt {
+}
+
+.tixt {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  }
-  
- .nav-link {
+}
+
+.nav-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 0.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
- }
- 
- .nav-link:hover,
- .nav-link:focus,
- .Contacts-link:hover,
- .Contacts-link:focus {
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.Contacts-link:hover,
+.Contacts-link:focus {
   color: #4d5ae5;
- }
- 
- .Contacts {
+}
+
+.Contacts {
   font-style: normal;
- }
- 
- .Contacts-link {
+}
+
+.Contacts-link {
   font-size: 16px;
   line-height: 0.5;
   letter-spacing: 0.02em;
   color: #434455;
- }
- 
- .page-footer {
-  background-color: #2e2f42;
- }
+}
 
- .page-section {
+.page-footer {
   background-color: #2e2f42;
- }
+}
 
- .typog {
+.page-section {
+  background-color: #2e2f42;
+}
+
+.typog {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -87,7 +87,6 @@ body {
   color: #fff;
 }
 
-
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -95,9 +94,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-}
-
-.button {
   cursor: pointer;
   background-color: #4d5ae5;
 }
@@ -125,7 +121,7 @@ body {
   color: #434455;
 }
 
-  .team-section {
+.team-section {
   background-color: #f4f4fd;
 }
 
@@ -140,7 +136,7 @@ body {
 }
 
 .team-li {
- background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .Content {
@@ -148,65 +144,65 @@ body {
 }
 
 .Contenty {
- background-color: #ffffff;
- font-family: "Roboto", sans-serif;
- font-weight: 500;
- font-size: 20px;
- line-height: 120%;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- color: #2e2f42;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .texty {
- font-family: "Roboto", sans-serif;
- font-weight: 400;
- font-size: 16px;
- line-height: 150%;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #434455;
 }
 
 .oury {
- font-family: "Roboto", sans-serif;
- font-weight: 700;
- font-size: 36px;
- line-height: 111%;
- letter-spacing: 0.02em;
- text-align: center;
- color: #2e2f42;
- background-color: #ffffff;
- text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  background-color: #ffffff;
+  text-transform: capitalize;
 }
 
- .conty {
- font-family: "Roboto", sans-serif;
- font-weight: 500;
- font-size: 20px;
- line-height: 120%;
- letter-spacing: 0.02em;
- color: #2e2f42;
- background-color: #ffffff;
- }
+.conty {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
 
 .taxty {
- font-family: "Roboto", sans-serif;
- font-weight: 400;
- font-size: 16px;
- line-height: 150%;
- letter-spacing: 0.02em;
- color: #434455;
-} 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 .sec-heder {
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
- }
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
- .big-title {
- font-size: 56px;
- line-height: 1.07;
- }
+.big-title {
+  font-size: 56px;
+  line-height: 1.07;
+  }
