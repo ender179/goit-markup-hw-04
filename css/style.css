@@ -75,14 +75,16 @@ body {
   background-color: #2e2f42;
  }
 
- .section3-heder {
- font-size: 36px;
- line-height: 1.11;
- text-align: center;
- letter-spacing: 0.02em;
- text-transform: capitalize;
- color: #2e2e2e;
+ .typog {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
+
 
 .button {
   font-family: "Roboto", sans-serif;
@@ -212,3 +214,12 @@ body {
  letter-spacing: 0.02em;
  color: #434455;
 } 
+
+.section3-heder {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2e2e;
+ }
