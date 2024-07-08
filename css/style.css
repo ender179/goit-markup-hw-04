@@ -79,7 +79,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -97,9 +97,6 @@ body {
 
 .button {
   cursor: pointer;
-}
-
-.button {
   background-color: #4d5ae5;
 }
 
@@ -137,10 +134,7 @@ body {
   line-height: 111%;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.team {
- text-align: center;
+  text-align: center;
 }
 
 .team-li {
@@ -152,10 +146,7 @@ body {
 }
 
 .Contenty {
-  background-color: #ffffff;
-}
-
-.Contenty {
+ background-color: #ffffff;
  font-family: "Roboto", sans-serif;
  font-weight: 500;
  font-size: 20px;
@@ -183,15 +174,9 @@ body {
  letter-spacing: 0.02em;
  text-align: center;
  color: #2e2f42;
-}
-
-.oury {
  background-color: #ffffff;
-}
-
-.oury {
  text-transform: capitalize;
- }
+}
 
  .conty {
  font-family: "Roboto", sans-serif;
@@ -200,11 +185,8 @@ body {
  line-height: 120%;
  letter-spacing: 0.02em;
  color: #2e2f42;
+ background-color: #ffffff;
  }
-
-.conty {
- background-color: #ffffff; 
-}
 
 .taxty {
  font-family: "Roboto", sans-serif;
@@ -216,9 +198,10 @@ body {
 } 
 
 .section3-heder {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  font-weight: 500;
+ }
+
+ .big-title {
+ font-size: 56px;
+ line-height: 1.07;
  }
