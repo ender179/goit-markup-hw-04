@@ -51,8 +51,8 @@ body {
  
  .nav-link:hover,
  .nav-link:focus,
- .Contacts-link:hover,
- .Contacts-link:focus {
+ .contacts-link:hover,
+ .contacts-link:focus {
   color: #404bbf;
  }
  
