@@ -185,6 +185,16 @@ body {
  background-color: #ffffff;
  }
 
+.taxty {
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #434455;
+} 
+
 .sec-heder,
 .big-titl {
  font-weight: 500;
