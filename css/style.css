@@ -199,14 +199,12 @@ body {
  color: #434455;
 } 
 
-.sec-heder {
+.sec-heder,
+.big-titl {
  font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
- }
-
- .big-title {
  font-size: 56px;
  line-height: 1.07;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #ffffff;
  }
