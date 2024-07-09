@@ -93,9 +93,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-}
-
-.button {
   cursor: pointer;
   background-color: #4d5ae5;
 }
