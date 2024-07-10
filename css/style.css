@@ -19,6 +19,8 @@ ul {
  line-height: 150%;
  letter-spacing: 0.02em;
  color: #f4f4fd;
+ margin: 0;
+ padding: 0
 }
 
  ul,
@@ -241,4 +243,4 @@ ul {
 
  img {
   display: block;
- }
+}
