@@ -130,7 +130,8 @@ body {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
+  text-transform: capitalize;
   text-align: center;
 }
 
@@ -160,7 +161,7 @@ body {
  line-height: 150%;
  letter-spacing: 0.02em;
  text-transform: capitalize;
- color: #2e2f42;
+ color: #434455;
 }
 
 .oury {
