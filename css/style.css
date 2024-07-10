@@ -88,7 +88,11 @@ ul {
  }
 
  .container {
- padding: 188px 0;
+ width: 1158px;
+ margin: 0 auto;
+ padding: 0 15px;
+ padding-top: 188;
+ padding-bottom: 188;
  }
 
  .typog {
