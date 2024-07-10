@@ -204,3 +204,7 @@ body {
  text-align: center;
  color: #ffffff;
  }
+
+img {
+  display: block;
+ }
