@@ -3,7 +3,24 @@ body {
   color: #434455;
   background-color: #fff;
  }
- 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+ max-width: 264px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ color: #f4f4fd;
+}
+
  ul,
  ol {
   list-style-type: none;
@@ -11,6 +28,8 @@ body {
  
  a {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
  }
  
  .logo {
@@ -44,30 +63,31 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
  }
  
  .nav-link:hover,
  .nav-link:focus,
- .Contacts-link:hover,
- .Contacts-link:focus {
-  color: #4d5ae5;
+ .contacts-link:hover,
+ .contacts-link:focus {
+  color: #404bbf;
  }
  
- .Contacts {
+ .contacts {
   font-style: normal;
  }
  
- .Contacts-link {
+ .contacts-link {
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
  }
  
  .page-footer {
+  padding: 100px 0;
   background-color: #2e2f42;
  }
 
@@ -75,15 +95,23 @@ body {
   background-color: #2e2f42;
  }
 
+ .container {
+ width: 1158px;
+ margin: 0 auto;
+ padding: 0 15px;
+ }
+
  .typog {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
+
 
 .button {
   font-family: "Roboto", sans-serif;
@@ -92,14 +120,15 @@ body {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-}
-
-.button {
   cursor: pointer;
-}
-
-.button {
   background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+
 }
 
 .button:hover,
@@ -116,6 +145,15 @@ body {
   color: #2e2f42;
 }
 
+.text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
   .team-section {
   background-color: #f4f4fd;
 }
@@ -126,16 +164,13 @@ body {
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
-}
-
-.team {
+  text-transform: capitalize;
   text-align: center;
 }
 
 .team-li {
-  background-color: #ffffff;
+ background-color: #ffffff;
 }
 
 .content {
@@ -143,64 +178,67 @@ body {
 }
 
 .contenty {
-  background-color: #ffffff;
-}
-
-.contenty {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+ background-color: #ffffff;
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 120%;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2e2f42;
 }
 
 .texty {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #434455;
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #434455;
 }
 
 .oury {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 111%;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #2e2f42;
+ background-color: #ffffff;
+ text-transform: capitalize;
 }
 
-.oury {
-  background-color: #ffffff;
-}
-
-.oury {
-  text-transform: capitalize;
-}
-
-.conty {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.conty {
-  background-color: #ffffff;
-}
+ .conty {
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 120%;
+ letter-spacing: 0.02em;
+ color: #2e2f42;
+ background-color: #ffffff;
+ }
 
 .taxty {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+ font-family: "Roboto", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ color: #434455;
+} 
+
+.sec-heder,
+.big-titl {
+ font-weight: 500;
+ font-size: 56px;
+ line-height: 1.07;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #ffffff;
+ }
+
+ img {
+  display: block;
+ }
