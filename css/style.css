@@ -10,8 +10,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul {
+p {
  max-width: 264px;
  font-family: 'Roboto', sans-serif;
  font-weight: 400;
@@ -20,12 +19,13 @@ ul {
  letter-spacing: 0.02em;
  color: #f4f4fd;
  margin: 0;
- padding: 0
 }
 
  ul,
  ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0
  }
  
  a {
@@ -42,6 +42,11 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+ }
+
+ .header-logo {
+ padding: 24px 0;
+ margin-right: 76px;
  }
  
  .header-logo .logo-part {
@@ -60,9 +65,18 @@ ul {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   }
+
+.nav-list {
+ display: flex;
+ align-items: center;
+ gap: 40px;
+}
+
   
  .nav-link {
   font-family: 'Roboto', sans-serif;
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,9 +93,18 @@ ul {
  
  .contacts {
   font-style: normal;
+  margin-left: auto;
  }
- 
+
+ .contacts-list {
+ display: flex;
+ align-items: center;
+ gap: 40px;
+ }
+
  .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -95,13 +118,32 @@ ul {
 
  .page-section {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
+ }
+
+ .page-header {
+ border-bottom: 1px solid #e7e9fc;
  }
 
  .container {
- width: 1158px;
- margin: 0 auto;
- padding: 0 15px;
+ width: 100%;
+ max-width: 1158px;
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
  }
+
+ .header-container {
+ display: flex;
+ align-items: center;
+ }
+
+.header-nav {
+ display: flex;
+ align-items: center;
+ 
+}
 
  .typog {
   font-family: "Roboto", sans-serif;
@@ -130,7 +172,6 @@ ul {
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
-
 }
 
 .button:hover,
@@ -138,16 +179,17 @@ ul {
   background-color: #404bbf;
 }
 
-.title {
+.task-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.text {
+.task-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -243,4 +285,41 @@ ul {
 
  img {
   display: block;
+}
+
+.visually-hidden {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ padding: 0;
+ margin: -1px;
+ overflow: hidden;
+ clip: rect(0,0,0,0,);
+ border: 0;
+}
+
+.title-section {
+ padding: 120px 0;
+}
+
+.title-section .container {
+ display: flex;
+ gap: 24px;
+}
+
+.title-section .container li {
+ width: calc((100% - 72px)/4);
+}
+
+.title-section .container li h3 {
+ margin-bottom: 8px;
+}
+
+.task-list {
+ display: flex;
+ gap: 24px;
+}
+
+.task-item {
+ width: calc((100% - 72px)/4);
 }
