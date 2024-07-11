@@ -95,6 +95,7 @@ ul {
 
  .page-section {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
  }
 
  .container {
@@ -130,7 +131,6 @@ ul {
   border: none;
   border-radius: 4px;
   background-color: #4d5ae5;
-
 }
 
 .button:hover,
