@@ -206,9 +206,9 @@ p {
   color: #434455;
 }
 
-  .team-section {
-  background-color: #f4f4fd;
-  padding: 120px 0;
+.team-section {
+ background-color: #f4f4fd;
+ padding: 120px 0;
 }
 
 .team-list {
@@ -225,11 +225,16 @@ p {
   color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-li {
  background-color: #ffffff;
  width: ((100% - 72px)/4);
+}
+
+.team-li:first-child {
+ border-radius: 0px 0px 4px 4px;
 }
 
 .content {
