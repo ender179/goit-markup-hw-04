@@ -208,6 +208,12 @@ p {
 
   .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-list {
+ display: flex;
+ gap: 24px;
 }
 
 .team {
@@ -223,6 +229,7 @@ p {
 
 .team-li {
  background-color: #ffffff;
+ width: ((100% - 72px)/4);
 }
 
 .content {
