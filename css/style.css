@@ -325,6 +325,7 @@ p {
  overflow: hidden;
  clip-path: inset(100%);
  clip: rect(0,0,0,0);
+ margin-bottom: 72px;
 }
 
 .title-section {
@@ -353,4 +354,3 @@ p {
 .task-item {
  width: calc((100% - 72px)/4);
 }
-
