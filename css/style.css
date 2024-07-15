@@ -241,7 +241,7 @@ p {
   background: #ffffff;
 }
 
-.app-info-container {
+.member-info {
  padding: 32px 0;
 }
 
@@ -354,9 +354,4 @@ p {
 
 .task-item {
  width: calc((100% - 72px)/4);
-}
-
-.app-info-container {
- padding: 32px 16px;
- border: 1px solid #e7e9fc;
 }
