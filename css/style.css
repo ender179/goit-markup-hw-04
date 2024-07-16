@@ -376,6 +376,11 @@ p {
  margin-bottom: 8px;
 }
 
+.task-list {
+ display: flex;
+ gap: 24px;
+}
+
 .task-item {
  width: calc((100% - 72px) / 4);
 }
