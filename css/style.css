@@ -200,6 +200,10 @@ p {
   color: #434455;
 }
 
+.task-title {
+ margin-bottom: 8px;
+}
+
 .team-section {
  background-color: #f4f4fd;
  padding: 120px 0;
