@@ -347,13 +347,6 @@ p {
  padding: 120px 0;
 }
 
-.title-container {
- display: flex;
- flex-wrap: wrap;
- column-gap: 24px;
- row-gap: 48px;
-}
-
 .title-item {
   width: calc((100% - 48px) / 3);
  }
