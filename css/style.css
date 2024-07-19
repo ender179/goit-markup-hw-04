@@ -364,6 +364,17 @@ p {
  margin-bottom: 0;
 }
 
+.title-content {
+ padding: 32px 16px;
+ border: 1px solid #e7e9fc;
+}
+
+.title-content h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
 .title-hidden {
   position: absolute;
   width: 1px;
@@ -401,4 +412,17 @@ p {
 .title-list {
  display: flex;
  gap: 24px;
+}
+
+.center-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+.center-container h1,
+.center-container button {
+ margin: 10px 0;
 }
