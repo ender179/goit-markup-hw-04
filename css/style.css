@@ -240,10 +240,6 @@ p {
   background: #ffffff;
 }
 
-.member-info {
- padding: 32px 0;
-}
-
 .contenty {
  background-color: #ffffff;
  font-family: "Roboto", sans-serif;
@@ -304,12 +300,6 @@ p {
  margin-bottom: 0;
 }
 
-.portfolio-content {
- padding: 32px 16px;
- border: 1px solid #e7e9fc;
- border-top: none;
-}
-
  .portfolio-title {
  font-family: "Roboto", sans-serif;
  font-weight: 500;
@@ -361,18 +351,7 @@ p {
 }
 
 .title-item:nth-last-child(-n+3) {
- margin-bottom: 0;
-}
-
-.title-content {
- padding: 32px 16px;
- border: 1px solid #e7e9fc;
-}
-
-.title-content h3 {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 8px;
+ margin-bottom: 0
 }
 
 .title-hidden {
@@ -425,4 +404,10 @@ p {
 .center-container h1,
 .center-container button {
  margin: 10px 0;
+}
+
+.Section-content {
+ padding: 32px 16px;
+ border: 1px solid #e7e9fc;
+ border-top: none;
 }
