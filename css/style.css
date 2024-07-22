@@ -240,7 +240,7 @@ p {
   background: #ffffff;
 }
 
-.contenty {
+.employee-name {
  background-color: #ffffff;
  font-family: "Roboto", sans-serif;
  font-weight: 500;
@@ -253,7 +253,7 @@ p {
  margin-bottom: 8px;
 }
 
-.texty {
+.employee-position {
  font-family: "Roboto", sans-serif;
  font-weight: 400;
  font-size: 16px;
@@ -321,7 +321,7 @@ p {
  margin: 0;
  }
 
-.taxty {
+.employee-position {
  font-family: "Roboto", sans-serif;
  font-weight: 400;
  font-size: 16px;
@@ -423,7 +423,6 @@ p {
  margin: 10px 0;
 }
 
-.Section-content {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+.employee-container {
+ padding: 32px 0;
 }
