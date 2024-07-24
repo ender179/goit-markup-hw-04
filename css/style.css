@@ -244,17 +244,27 @@ p {
 }
 
 .employee-name {
- font-family: "Raleway", sans-serif;
- font-weight: 700;
+ background-color: #ffffff;
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
  font-size: 20px;
- color: #434455;
+ line-height: 120%;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #2e2f42;
+ text-align: center;
+ margin-bottom: 8px;
 }
 
 .employee-position {
  font-family: "Roboto", sans-serif;
  font-weight: 400;
  font-size: 16px;
- color: #6c757d;
+ line-height: 150%;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color: #434455;
+ text-align: center;
 }
 
 .portfolio-section {
@@ -418,9 +428,7 @@ p {
 }
 
 .employee-container {
- display: flex;
- align-items: center;
- padding: 32px 0;
+ pad3 32px 0;
 }
  
 .title-section .title-item h3 {
@@ -429,5 +437,4 @@ p {
 
 .employee-info {
  padding: 32px 0;
- margin-left: 16px;
 }
