@@ -331,6 +331,7 @@ p {
  line-height: 150%;
  letter-spacing: 0.02em;
  color: #434455;
+ text-align: center;
 } 
 
 .sec-heder,
@@ -429,7 +430,11 @@ p {
 .employee-container {
  padding: 32px 0;
 }
-
+ 
 .title-section .title-item h3 {
  margin-bottom: 8px;
+}
+
+.employee-info {
+ padding: 32px 0;
 }
