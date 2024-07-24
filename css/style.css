@@ -428,7 +428,7 @@ p {
 }
 
 .employee-container {
- pad3 32px 0;
+ padding: 32px 0;
 }
  
 .title-section .title-item h3 {
