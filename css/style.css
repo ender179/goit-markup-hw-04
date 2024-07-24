@@ -192,6 +192,12 @@ p {
   margin-bottom: 8px;
 }
 
+.first-item-title {
+ color: #434455;
+ font-size: 24px;
+ font-weight: 700;
+}
+
 .item-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
