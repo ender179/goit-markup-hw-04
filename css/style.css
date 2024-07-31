@@ -471,6 +471,8 @@ p {
 .footer-logo {
  font-size: 20px;
  line-height: 1.5;
+ display: block;
+ margin: 0 auto 20px;
 }
 
 .text {
@@ -503,6 +505,7 @@ p {
 
 .social-links {
  display: flex;
+ justify-content: center;
  gap: 16px;
 }
 
@@ -535,4 +538,23 @@ p {
  
  .background-color-section {
   background-color: #f4f4fd;
+ }
+
+ .header {
+ box-shadow: 
+ 0px 2px 1px rgb(46, 47, 66, 0.08),
+ 0px 1px 1px rgb(46, 47, 66, 0.16),
+ 0px 1px 6px rgb(46, 47, 66, 0.08);
+ }
+
+ .footer {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ }
+
+ .footer-content {
+ max-width: 1200px;
+ margin: 0 auto;
  }
