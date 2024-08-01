@@ -131,6 +131,13 @@ p {
 
  .page-section {
   background-color: var(--primary-color);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),
+  url(../images/img-name.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 188px 0;
  }
 
@@ -533,13 +540,13 @@ p {
   background-image:
   linear-gradient(rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)),
-  url(../images/people-office.jpeg);
+  url(../images/people-office.jpeg);  
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
  }
- 
+
  .background-color-section {
   background-color: #f4f4fd;
  }
@@ -561,4 +568,9 @@ p {
  .footer-content {
  max-width: 1200px;
  margin: 0 auto;
+ }
+
+ .icon {
+ width: 24px;
+ height: 24px;
  }
