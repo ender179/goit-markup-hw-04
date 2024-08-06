@@ -525,6 +525,28 @@ p {
  height: 40px;
 }
 
+.social-icons {
+ display: flex;
+ gap: 12px;
+ justify-content: center;
+ margin-top: 8px;
+}
+
+.social-icons a {
+ display: inline-block;
+ width: 24px;
+ height: 24px;
+}
+
+.social-icons .icon {
+ fill: var(--primary-color);
+ transition: fill 0.3s ease;
+}
+
+.social-icons a:hover .icon {
+ fill: var(--accent-color);
+}
+
 .section-class {
  background-image: 
  linear-gradient(rgba(46, 47, 66, 0.7),
