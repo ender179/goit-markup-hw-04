@@ -526,8 +526,15 @@ p {
  margin-bottom: 16px;
 }
 
-.text {
- font-family: 'Roboto', sans-serif;
+.footer-text {
+ font-family: var(--font-primary);
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: var(--light-color);
+ margin: 0;
+ text-align: center;
 }
 
 .socials {
