@@ -67,9 +67,10 @@ p {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-color);
+  margin: 0;
   }
 
 .nav-list {
@@ -123,7 +124,8 @@ p {
  
  .page-footer {
  background-color: #2e2f42;
- padding: 100px 0;
+ padding: 50px 0;
+ color: var(--light-color);
 }
 
  .page-section {
@@ -161,6 +163,7 @@ p {
  align-items: baseline;
  width: 264px;
  height: 126px;
+ text-align: center;
 }
 
  .header-container {
@@ -520,7 +523,7 @@ p {
  font-size: 20px;
  line-height: 1.5;
  display: block;
- margin: 0 auto 20px;
+ margin-bottom: 16px;
 }
 
 .text {
@@ -532,6 +535,8 @@ p {
  flex-direction: column;
  align-items: center;
  margin-right: 0;
+ margin-top: 30px;
+ text-align: center;
 }
 
 .social-media {
